@@ -1,1 +1,13 @@
-# Q1
+#include <stdio.h>
+#include <stdlib.h>
+Int main(){    FILE *fp1, *fp2 ;   
+ Char m ;    //ouvrir le fichier en lecture   
+ Fp1=fopen(« projet1.fichier_source », »r ») ;  
+  //ouvrrir le fichier en ecriture   
+ Fp2=fopen(« projet1.fichier_desrination », »w ») ;  
+   //lire le contenu du fichier source   
+  While((m=getc(fp1)) != EOF)       
+ Putc(m, fp2) ;     Fclose(fp1) ;   
+  Fclose(fp2) ;     Getch() ;   
+ Return 0 ;
+}
